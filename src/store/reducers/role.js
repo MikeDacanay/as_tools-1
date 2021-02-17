@@ -19,6 +19,17 @@ const initialState = {
             SpanishLAD: 'Selecciona tu cargo'
         },
         {
+            English: 'C-level',
+            German: 'C-levelg',
+            French: 'C-levelf',
+            Russian: 'C-levelr',
+            Turkish: 'C-levelt',
+            Italian: 'C-leveli',
+            Spanish: 'C-levels',
+            PortugueseBR: 'C-levelp',
+            SpanishLAD: 'C-levels'
+        },
+        {
             English: 'CFO',
             German: 'CFO',
             French: 'Directeur financier et administratif',

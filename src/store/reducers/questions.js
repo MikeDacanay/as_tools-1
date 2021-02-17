@@ -12,6 +12,7 @@ const initialState = {
 
 const choose_questions = (state = initialState, action) => {
 
+    console.log(action.role);
 
     const curLbls = QuestionSets[action.role].map(qset => qset.currH = qset.headerSet[action.lang]);
 

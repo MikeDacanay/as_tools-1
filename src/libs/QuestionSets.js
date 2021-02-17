@@ -1,3 +1,4 @@
+import Clevel_QSet from './roleQuestionSets/C-level_QuestionSet';
 import CFO_QSet from './roleQuestionSets/CFOQuestionSet';
 import CONTROLLER_QSet from './roleQuestionSets/CONTROLLERQuestionSet';
 import FINANCE_QSet from './roleQuestionSets/FINANCEQuestionSet';
@@ -10,6 +11,7 @@ import None from './roleQuestionSets/None';
 
 const QuestionSets = {
     'Choose your role': None,
+    'C-level': Clevel_QSet,
     'CFO': CFO_QSet,
     'CAO or Controller': CONTROLLER_QSet,
     'VP or Director of Finance': FINANCE_QSet,

@@ -1192,6 +1192,43 @@ const HEADER_MOD = {
         negCopy:"Integra la gestión de riesgos en tu cultura y procesos de negocio con análisis de seguridad automatizados, auditorías digitalizadas y cumplimiento.",
         negLink:"https://explore.oracle.com/big-moves-sp/bm-risk-starter-kit-sp",
         negLinkTxt:"Descarga el kit de inicio aquí",    
-    }
+    },
+    //NEWNEWNEWNEWNEW
+    "Does integration of SAP applications affect your business?": {
+        header: "Integration",
+        negCopy:"Integra la gestión de riesgos en tu cultura y procesos de negocio con análisis de seguridad automatizados, auditorías digitalizadas y cumplimiento.",
+        negLink:"https://explore.oracle.com/big-moves-sp/bm-risk-starter-kit-sp",
+        negLinkTxt:"Descarga el kit de inicio aquí",    
+    },
+    "What analytics tools do you use?": {
+        header: "Analytics",
+        negCopy:"Integra la gestión de riesgos en tu cultura y procesos de negocio con análisis de seguridad automatizados, auditorías digitalizadas y cumplimiento.",
+        negLink:"https://explore.oracle.com/big-moves-sp/bm-risk-starter-kit-sp",
+        negLinkTxt:"Descarga el kit de inicio aquí",    
+    },
+    "How do you consider the move from your current SAP version to S/4HANA?": {
+        header: "Disruption",
+        negCopy:"Integra la gestión de riesgos en tu cultura y procesos de negocio con análisis de seguridad automatizados, auditorías digitalizadas y cumplimiento.",
+        negLink:"https://explore.oracle.com/big-moves-sp/bm-risk-starter-kit-sp",
+        negLinkTxt:"Descarga el kit de inicio aquí",    
+    },
+    "Does SAP support your company in its digital transformation to become an intelligent enterprise or data-driven company?": {
+        header: "Transformation",
+        negCopy:"Integra la gestión de riesgos en tu cultura y procesos de negocio con análisis de seguridad automatizados, auditorías digitalizadas y cumplimiento.",
+        negLink:"https://explore.oracle.com/big-moves-sp/bm-risk-starter-kit-sp",
+        negLinkTxt:"Descarga el kit de inicio aquí",    
+    },
+    "Where do you expect costs and risks in migrating to S/4HANA Cloud?": {
+        header: "Costs",
+        negCopy:"Integra la gestión de riesgos en tu cultura y procesos de negocio con análisis de seguridad automatizados, auditorías digitalizadas y cumplimiento.",
+        negLink:"https://explore.oracle.com/big-moves-sp/bm-risk-starter-kit-sp",
+        negLinkTxt:"Descarga el kit de inicio aquí",    
+    },
+    "What are the risks of running  SAP on a hyperscaler*?": {
+        header: "Hyperscalers",
+        negCopy:"Integra la gestión de riesgos en tu cultura y procesos de negocio con análisis de seguridad automatizados, auditorías digitalizadas y cumplimiento.",
+        negLink:"https://explore.oracle.com/big-moves-sp/bm-risk-starter-kit-sp",
+        negLinkTxt:"Descarga el kit de inicio aquí",    
+    },
 }
 export default HEADER_MOD;
