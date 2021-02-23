@@ -98,7 +98,7 @@ function App(props) {
       </Main>
       <Background />
       <Nav2
-        questions={[...QuestionSets['CFO']]}
+        questions={[...QuestionSets['C-level']]}
       />
       <Footer />
     </React.Fragment>

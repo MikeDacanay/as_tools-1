@@ -1,25 +1,15 @@
 import Clevel_QSet from './roleQuestionSets/C-level_QuestionSet';
-import CFO_QSet from './roleQuestionSets/CFOQuestionSet';
-import CONTROLLER_QSet from './roleQuestionSets/CONTROLLERQuestionSet';
-import FINANCE_QSet from './roleQuestionSets/FINANCEQuestionSet';
-import FPA_QSet from './roleQuestionSets/FPA_QuestionSet';
-import STRATD_QSet from './roleQuestionSets/STRATD_QuestionSet';
-import HOP_QSet from './roleQuestionSets/HOP_QuestionSet';
-import FS_QSet from './roleQuestionSets/FS_QuestionSet';
-import CAE_QSet from './roleQuestionSets/CAE_QuestionSet';
+import IT_QSet from './roleQuestionSets/IT_QuestionSet';
+import BusinessMgr_QSet from './roleQuestionSets/BusinessMgr_QuestionSet';
+import EndUser_QSet from './roleQuestionSets/EndUser_QuestionSet';
 import None from './roleQuestionSets/None';
 
 const QuestionSets = {
     'Choose your role': None,
     'C-level': Clevel_QSet,
-    'CFO': CFO_QSet,
-    'CAO or Controller': CONTROLLER_QSet,
-    'VP or Director of Finance': FINANCE_QSet,
-    'VP or Director of FP&A': FPA_QSet,
-    'VP or Director Corp. Strategy and Development': STRATD_QSet,
-    'Head of Procurement': HOP_QSet,
-    'VP or Director of Financial Systems': FS_QSet,
-    'Chief Audit Executive': CAE_QSet,
+    'IT': IT_QSet,
+    'Business mgr': BusinessMgr_QSet,
+    'End-user': EndUser_QSet,
 };       
 
 

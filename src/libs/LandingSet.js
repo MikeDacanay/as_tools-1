@@ -1,6 +1,6 @@
 const LandingSet = {
     title1: {
-        English: "Finance",
+        English: "SAP",
         German: 'Selbstbewertungstool',
         French: 'Outil d’auto-évaluation',
         Russian: 'Инструмент для самостоятельной',
@@ -11,7 +11,7 @@ const LandingSet = {
         SpanishLAD: 'Herramienta de autoevaluación',
     },
     title2: {
-        English: "self-assessment tool",
+        English: "cloud maturity model",
         German: 'für das Finanzwesen',
         French: "financière",
         Russian: "оценки финансовых процессов",
@@ -22,7 +22,7 @@ const LandingSet = {
         SpanishLAD: "financiera",
     },
     landingCopy: {
-        English: "Find out how your finance processes stack up against best-in-class organizations.",
+        English: "Find out if your current SAP environment will be suitable for SAP cloud.",
         German: "Erfahren Sie, wie Ihre Finanzprozesse im Vergleich zu denen erstklassiger Unternehmen dastehen.",
         French: "Comparez vos processus financiers à ceux des entreprises leader de leur secteur.",
         Russian: "Узнайте, насколько эффективно построены ваши финансовые процессы по сравнению с лучшими в своем классе организациями.",

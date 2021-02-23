@@ -9,10 +9,8 @@ const initialState = {
         'German', 
         'Italian',
         'PortugueseBR',                               
-        'Russian',
         'Spanish',         
         'SpanishLAD',        
-        'Turkish',
     ]
 }
 

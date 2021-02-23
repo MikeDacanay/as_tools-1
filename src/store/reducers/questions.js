@@ -12,15 +12,16 @@ const initialState = {
 
 const choose_questions = (state = initialState, action) => {
 
-    console.log(action.role);
-
-    const curLbls = QuestionSets[action.role].map(qset => qset.currH = qset.headerSet[action.lang]);
+    const curLbls = QuestionSets[action.role].map(qset => qset.currH = qset.headerSet[action.lang]);    
 
     const currQs = [...QuestionSets[action.role]].map(
         qset => {
+
+            console.log(HEADER_MOD[qset.currQ]);
+
             qset.currQ = qset.questionSet[action.lang];
             qset.currH = qset.questionSet;
-            qset.currNegLink = HEADER_MOD[qset.currQ].negLink
+            qset.currNegLink = HEADER_MOD[qset.currQ].negLink;
             qset.currNegLinkText = HEADER_MOD[qset.currQ].negLinkTxt;
             qset.currNegCopy = HEADER_MOD[qset.currQ].negCopy; 
 

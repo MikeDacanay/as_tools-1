@@ -1,9 +1,9 @@
 import QuestionObj from '../Models/QuestionObj';
 
-const CAE_QSet = [
+const EndUser_QSet = [
     new QuestionObj({
         questionSet: {
-            English: 'Which describes your internal audit & compliance processes?',
+            English: 'Will moving to SAP Cloud provide you with a more user-friendly SAP system?',
             German: 'Wie würden Sie Ihre internen Prüf- und Compliance-Prozesse beschreiben?',
             French: "Comment décririez-vous les processus d’audit interne et de conformité ?",
             Russian: "Охарактеризуйте процессы внутреннего аудита компании и управления соответствием?",
@@ -15,10 +15,10 @@ const CAE_QSet = [
         },
         answerSet: {
             English: [
-                "Ad-hoc & infrequent, manual analysis and processes, limited collaboration.",
-                "Scheduled, IT-dependent data extracts, offline analytics, limited collaboration.",
-                "On-demand, integrated & automated analytics, efficient collaboration.",
-                "Continuous, embedded, highly-automated analytics and collaboration.",
+                "SAP user experience is not very good, Cloud won't change that",
+                "SAP user experience is improving",
+                "Cloud will provide user experience improvements",
+                "Moving to SAP Cloud significantly improve user experience",            
             ],
             German: [
                 'Unregelmäßige manuelle Ad-hoc-Analysen und -Prozesse, eingeschränkte Zusammenarbeit. ',
@@ -72,7 +72,7 @@ const CAE_QSet = [
     }),
     new QuestionObj({
         questionSet: {
-            English: 'Which describes your separation of duties & access controls?',
+            English: 'What analytics tools do you use?',
             German: 'Wie würden Sie die Trennung Ihrer Pflichten und Zugangskontrollen beschreiben?',
             French: "Comment décririez-vous la séparation des fonctions et le contrôle des accès ?",
             Russian: "Как в компании организованы процессы разделения обязанностей и контроля доступа?",
@@ -84,10 +84,10 @@ const CAE_QSet = [
         },
         answerSet: {
             English: [
-                "Manual analysis, internally-defined controls, annual external assessment.",
-                "3rd party tool analysis, best-practice controls, periodic external assessment.",
-                "3rd party tool analysis, best-practice controls, periodic internal assessment.",
-                "Embedded continuous analysis and internal assessment, best-practice controls.",
+                "We use multiple analytics tools, but not from SAP",
+                'We use analytics from SAP, but not the latest version',
+                "We use some SAP analytics tools",
+                'We use some SAP analytics tools in the Cloud'
             ],
             German: [
                 'Manuelle Analyse, intern festgelegte Kontrollen, jährliche externe Beurteilung.',
@@ -141,7 +141,7 @@ const CAE_QSet = [
     }),
     new QuestionObj({
         questionSet: {
-            English: 'Which describes your internal controls for fraud monitoring?',
+            English: 'How do you consider the move from your current SAP version to S/4HANA Cloud?',
             German: 'Wie würden Sie Ihre internen Kontrollen zur Betrugsüberwachung beschreiben?',
             French: "Quels contrôles internes sont en place pour surveiller les fraudes ?",
             Russian: "Как в вашей компании организован внутренний контроль за отслеживанием мошенничества?",
@@ -153,10 +153,10 @@ const CAE_QSet = [
         },
         answerSet: {
             English: [
-                "Manual controls & notifications, sampling-based.",
-                "Limited control automation, manual notifications, sampling-based.",
-                "Good control automation, detection-based, timely notifications, limited data review.",
-                "Highly automated controls & notifications, preventative, continuous full-data review.",
+                "We are not considering moving to S/4HANA on premises or Cloud",
+                "We consider moving to S/4HANA but are unsure of the business benefits",
+                "We are moving to S/4HANA (now or next year)",
+                "We are moving to S/4HANA Cloud (now or next year)"
             ],
             German: [
                 'Manuelle Kontrollen und Benachrichtigungen, auf Stichproben basierend.',
@@ -208,9 +208,9 @@ const CAE_QSet = [
             ],
         },
     }),
-     new QuestionObj({
+    new QuestionObj({
         questionSet: {
-            English: 'How efficient is your current procure-to-pay (P2P) process?',
+            English: 'Does SAP support your company to become an intelligent enterprise?',
             German: 'Wie effizient ist der derzeitige Procure-to-Pay-Prozess (P2P)?',
             French: "Quelle est l’efficacité du processus d’achats actuel ?",
             Russian: "Как организованы P2P-процессы, начиная от размещения заказа поставщику и до оплаты?",
@@ -222,10 +222,10 @@ const CAE_QSet = [
         },
         answerSet: {
             English: [
-                'Manual, mostly informal. P2P process isn’t standard across LOBs and regions.',
-                'Higher degree of standardization in LOBs or regions, but not yet enterprise-wide.',
-                'Highly automated, effective end-to-end integration across PTP process enterprise-wide.',
-                'Fully automated. Automatic matching via AI/ML. Automatic payment if no exceptions found.'
+                "We don't understand the benefits of an intelligent enterprise",
+                "We're not working towards an intelligent enterprise",
+                "We are already an intelligent enterprise or nearly there",
+                "We need to move to Cloud first to become an intelligent enterprise"
             ],
             German: [
                 'Manuell, überwiegend informell. P2P-Prozess ist nicht standardisiert für Bereichsleitungen und Regionen. ',
@@ -277,9 +277,9 @@ const CAE_QSet = [
             ]
         },
     }),
-   new QuestionObj({
+    new QuestionObj({
         questionSet: {
-            English: 'Describe financial processing in the quote to cash (QTC) cycle.',
+            English: 'Will moving to SAP Cloud improve collaboration*?',
             German: 'Beschreiben Sie die Finanzabwicklung im Quote-to-Cash-Zyklus (QTC).',
             French: "Décrivez vos opérations financières du cycle QTC (du devis à l’encaissement).",
             Russian: "Как в вашей компании организован процесс Quote-to-Cash (QTC)?",
@@ -291,10 +291,10 @@ const CAE_QSet = [
         },
         answerSet: {
             English: [
-                'Disconnected QTC, extensive billing issues, manual customer payments resolution.',
-                'Semi-integrated, numerous billing issues, semi-automated customer payments resolution.',
-                'Fully integrated QTC, some billing issues, automated customer payments resolution.',
-                'Fully connected QTC, minimal billing issues, intelligent customer payments resolution.',
+                "We don't use any software for collaboration",
+                "We use some tools for collaboration, but not SAP",
+                "We use some SAP tools for collaboration",
+                "SAP Cloud will be a major improvement for collaboration"
             ],
             German: [
                 'Unzusammenhängendes QTC, beträchtliche Probleme bei der Rechnungsstellung, manuelle Lösung für Kundenzahlungen.',
@@ -348,7 +348,7 @@ const CAE_QSet = [
     }),
     new QuestionObj({
         questionSet: {
-            English: 'How do you manage your financial close process?',
+            English: 'What are the benefits of running SAP in the Cloud?',
             German: 'Wie läuft der Finanzabschluss ab?',
             French: "Comment gérez-vous votre clôture financière ?",
             Russian: "Как организован процесс управления финансовым закрытием в вашей компании?",
@@ -360,10 +360,11 @@ const CAE_QSet = [
         },
         answerSet: {
             English: [
-                'Inefficient, manually intensive, lots of time spent on adjustments and reconciliations.',
-                'Defined process but needs manual reconciliations and "data hand-off" interventions.',
-                'Fully automated, clearly defined, relies on automated controls and exception reporting.',
-                'Software-driven, touchless process via AI/ML. More time spent analyzing than closing.',
+                "There are no benefits, specifically for end-users like me",
+                "There will be some cost savings , but no business benefits",
+                "Agility is the main benefit of moving to SAP in the Cloud",
+                "SAP Cloud will have significant benefits for end-users"
+
             ],
             German: [
                 'Ineffizient, viel manuelle Arbeit, hoher Zeitaufwand für Anpassungen und Abgleiche. ',
@@ -417,4 +418,4 @@ const CAE_QSet = [
     }),
 ];
 
-export default CAE_QSet;
+export default EndUser_QSet;

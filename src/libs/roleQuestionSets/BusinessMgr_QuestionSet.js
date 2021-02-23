@@ -1,9 +1,9 @@
 import QuestionObj from '../Models/QuestionObj';
 
-const CLVL_QSet = [
+const BusinessMgr_QSet = [
     new QuestionObj({
         questionSet: {
-            English: 'Does integration of SAP applications affect your business?',
+            English: 'Does the quality of integration of SAP affect your business?',
             German: 'Wie würden Sie Ihre internen Prüf- und Compliance-Prozesse beschreiben?',
             French: "Comment décririez-vous les processus d’audit interne et de conformité ?",
             Russian: "Охарактеризуйте процессы внутреннего аудита компании и управления соответствием?",
@@ -16,9 +16,9 @@ const CLVL_QSet = [
         answerSet: {
             English: [
                 'A lack of integration of SAP  causes disruption in business',
-                'A lack of integration of SAP applications results in additional costs',
+                'A lack of integration of SAP results in additional costs',
                 'The effect on our business is limited',
-                'We expect major integration improvements from SAP Cloud'                
+                'We expect major integration improvements from SAP Cloud'                      
             ],
             German: [
                 'Unregelmäßige manuelle Ad-hoc-Analysen und -Prozesse, eingeschränkte Zusammenarbeit. ',
@@ -85,9 +85,9 @@ const CLVL_QSet = [
         answerSet: {
             English: [
                 'We use multiple analytics tools, but not from SAP',
-                'We use Analytics from SAP, but not the latest version',
-                'We use some SAP Analytics tools',
-                'We use SAP Analytics with machine-learning and predictive capabilities'
+                'We use analytics from SAP, but not the latest version',
+                'We use some SAP analytics tools',
+                'We use some SAP analytics tools in the Cloud'
             ],
             German: [
                 'Manuelle Analyse, intern festgelegte Kontrollen, jährliche externe Beurteilung.',
@@ -153,10 +153,10 @@ const CLVL_QSet = [
         },
         answerSet: {
             English: [
-                "We are not considering moving to S/4HANA on premises or Cloud",
-                "We consider moving to S/4HANA but are unsure of the business benefits",
-                "We are moving to S/4HANA (now or next year)",
-                "We are moving to S/4HANA Cloud (now or next year)"
+                'We are not considering moving to S/4HANA on premises or Cloud',
+                'We consider moving to S/4HANA but are unsure of the business benefits',
+                'We are moving to S/4HANA (now or next year)',
+                'We are moving to S/4HANA Cloud (now or next year)'
             ],
             German: [
                 'Manuelle Kontrollen und Benachrichtigungen, auf Stichproben basierend.',
@@ -210,7 +210,7 @@ const CLVL_QSet = [
     }),
     new QuestionObj({
         questionSet: {
-            English: 'Does SAP support your company in its digital transformation to become an intelligent enterprise or data-driven company?',
+            English: 'Does SAP support your company to become an intelligent enterprise?',
             German: 'Wie effizient ist der derzeitige Procure-to-Pay-Prozess (P2P)?',
             French: "Quelle est l’efficacité du processus d’achats actuel ?",
             Russian: "Как организованы P2P-процессы, начиная от размещения заказа поставщику и до оплаты?",
@@ -224,8 +224,8 @@ const CLVL_QSet = [
             English: [
                 "We don't understand the benefits of an intelligent enterprise",
                 "We're not working towards an intelligent enterprise",
-                'We are already an intelligent enterprise or nearly there',
-                'We need to move to Cloud first to become an intelligent enterprise'
+                "We are already an intelligent enterprise or nearly there",
+                "We need to move to Cloud first to become an intelligent enterprise"
             ],
             German: [
                 'Manuell, überwiegend informell. P2P-Prozess ist nicht standardisiert für Bereichsleitungen und Regionen. ',
@@ -279,7 +279,7 @@ const CLVL_QSet = [
     }),
     new QuestionObj({
         questionSet: {
-            English: 'Where do you expect costs and risks in migrating to S/4HANA Cloud?',
+            English: 'What are the benefits of running SAP in the Cloud?',
             German: 'Beschreiben Sie die Finanzabwicklung im Quote-to-Cash-Zyklus (QTC).',
             French: "Décrivez vos opérations financières du cycle QTC (du devis à l’encaissement).",
             Russian: "Как в вашей компании организован процесс Quote-to-Cash (QTC)?",
@@ -291,10 +291,10 @@ const CLVL_QSet = [
         },
         answerSet: {
             English: [
-                'We cannot determine the costs and risks of moving to S/4HANA Cloud',
-                'There are significant costs and risks with migrating to S/4HANA Cloud',
-                "Costs and risks are contained by using the 'Rise with SAP' program",
-                "SAP S/4HANA Cloud will be less costly and risks are contained"
+                "There are no business benefits, or I'm not aware of any",
+                "There will be some cost savings , but no business benefits",
+                "Agility is the main benefit of moving to SAP in the Cloud",
+                "We have a good understanding of Cloud business benefits"
             ],
             German: [
                 'Unzusammenhängendes QTC, beträchtliche Probleme bei der Rechnungsstellung, manuelle Lösung für Kundenzahlungen.',
@@ -364,7 +364,6 @@ const CLVL_QSet = [
                 "SAP on a hyperscaler isn't mature enough",
                 "Hyperscalers don't manage the entire SAP stack. That's an issue for us",
                 "'Rise with SAP' seems to address most risks of SAP on a hyperscaler",
-
             ],
             German: [
                 'Ineffizient, viel manuelle Arbeit, hoher Zeitaufwand für Anpassungen und Abgleiche. ',
@@ -418,4 +417,4 @@ const CLVL_QSet = [
     }),
 ];
 
-export default CLVL_QSet;
+export default BusinessMgr_QSet;

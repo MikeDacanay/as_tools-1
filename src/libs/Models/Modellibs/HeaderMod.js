@@ -265,7 +265,7 @@ const HEADER_MOD = {
     },
      "¿Qué describe tus procesos de auditoría, riesgo y cumplimiento?": {
         header: "Gestión de riesgos",
-        negCopy:"Integra la gestión de riesgos en tu cultura y procesos de negocio con análisis de seguridad automatizados, auditorías digitalizadas y cumplimiento.",
+        negCopy:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis magnam, enim voluptatibus nisi, dignissimos cupiditate omnis, in quisquam deleniti obcaecati hic maxime.",
         negLink: "https://explore.oracle.com/big-moves-sp/bm-risk-starter-kit-sp",
         negLinkTxt: "Descubre cómo empezar a utilizar",    
     },
@@ -321,7 +321,7 @@ const HEADER_MOD = {
         header: "M&A: Informes financieros",
         negCopy:"Crea una única fuente armonizada para elaborar informes financieros.",
         negLink:"https://explore.oracle.com/big-moves-sp/bm-ma-starter-kit-sp",
-        negLinkTxt:"Descarga el kit de inicio aquí",    
+        negLinkTxt:"Lorem ipsum dolor sit amet consectetur",    
     },
         "How do you adapt to new business models?": {
         header: "Innovation",
@@ -1081,7 +1081,7 @@ const HEADER_MOD = {
     },
           "¿Qué aspectos describen los procesos de auditoría interna y cumplimiento?": {
         header: "Auditoría interna y cumplimiento",
-        negCopy:"Integra la gestión de riesgos en tu cultura y procesos de negocio con análisis de seguridad automatizados, auditorías digitalizadas y cumplimiento.",
+        negCopy:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis magnam, enim voluptatibus nisi, dignissimos cupiditate omnis, in quisquam deleniti obcaecati hic maxime.",
         negLink:"https://explore.oracle.com/big-moves-sp/bm-risk-starter-kit-sp",
         negLinkTxt:"Descarga tu kit de inicio",    
     },
@@ -1135,7 +1135,7 @@ const HEADER_MOD = {
     },
            "¿Qué aspectos describen los controles internos para el monitoreo de fraudes?": {
         header: "Monitoreo de fraudes",
-        negCopy:"Integra la gestión de riesgos en tu cultura y procesos de negocio con análisis de seguridad automatizados, auditorías digitalizadas y cumplimiento.",
+        negCopy:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis magnam, enim voluptatibus nisi, dignissimos cupiditate omnis, in quisquam deleniti obcaecati hic maxime.",
         negLink:"https://explore.oracle.com/big-moves-sp/bm-risk-starter-kit-sp",
         negLinkTxt:"Obtén tu kit de inicio",    
     },
@@ -1189,46 +1189,100 @@ const HEADER_MOD = {
     },
         "¿Qué aspectos describen la separación de funciones y controles de acceso?": {
         header: "Acceso y separación de funciones",
-        negCopy:"Integra la gestión de riesgos en tu cultura y procesos de negocio con análisis de seguridad automatizados, auditorías digitalizadas y cumplimiento.",
+        negCopy:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis magnam, enim voluptatibus nisi, dignissimos cupiditate omnis, in quisquam deleniti obcaecati hic maxime.",
         negLink:"https://explore.oracle.com/big-moves-sp/bm-risk-starter-kit-sp",
-        negLinkTxt:"Descarga el kit de inicio aquí",    
+        negLinkTxt:"Lorem ipsum dolor sit amet consectetur",    
     },
     //NEWNEWNEWNEWNEW
     "Does integration of SAP applications affect your business?": {
         header: "Integration",
-        negCopy:"Integra la gestión de riesgos en tu cultura y procesos de negocio con análisis de seguridad automatizados, auditorías digitalizadas y cumplimiento.",
+        negCopy:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis magnam, enim voluptatibus nisi, dignissimos cupiditate omnis, in quisquam deleniti obcaecati hic maxime.",
         negLink:"https://explore.oracle.com/big-moves-sp/bm-risk-starter-kit-sp",
-        negLinkTxt:"Descarga el kit de inicio aquí",    
+        negLinkTxt:"Lorem ipsum dolor sit amet consectetur",    
     },
     "What analytics tools do you use?": {
         header: "Analytics",
-        negCopy:"Integra la gestión de riesgos en tu cultura y procesos de negocio con análisis de seguridad automatizados, auditorías digitalizadas y cumplimiento.",
+        negCopy:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis magnam, enim voluptatibus nisi, dignissimos cupiditate omnis, in quisquam deleniti obcaecati hic maxime.",
         negLink:"https://explore.oracle.com/big-moves-sp/bm-risk-starter-kit-sp",
-        negLinkTxt:"Descarga el kit de inicio aquí",    
+        negLinkTxt:"Lorem ipsum dolor sit amet consectetur",    
     },
-    "How do you consider the move from your current SAP version to S/4HANA?": {
+    "How do you consider the move from your current SAP version to S/4HANA Cloud?": {
         header: "Disruption",
-        negCopy:"Integra la gestión de riesgos en tu cultura y procesos de negocio con análisis de seguridad automatizados, auditorías digitalizadas y cumplimiento.",
+        negCopy:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis magnam, enim voluptatibus nisi, dignissimos cupiditate omnis, in quisquam deleniti obcaecati hic maxime.",
         negLink:"https://explore.oracle.com/big-moves-sp/bm-risk-starter-kit-sp",
-        negLinkTxt:"Descarga el kit de inicio aquí",    
+        negLinkTxt:"Lorem ipsum dolor sit amet consectetur",    
     },
     "Does SAP support your company in its digital transformation to become an intelligent enterprise or data-driven company?": {
         header: "Transformation",
-        negCopy:"Integra la gestión de riesgos en tu cultura y procesos de negocio con análisis de seguridad automatizados, auditorías digitalizadas y cumplimiento.",
+        negCopy:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis magnam, enim voluptatibus nisi, dignissimos cupiditate omnis, in quisquam deleniti obcaecati hic maxime.",
         negLink:"https://explore.oracle.com/big-moves-sp/bm-risk-starter-kit-sp",
-        negLinkTxt:"Descarga el kit de inicio aquí",    
+        negLinkTxt:"Lorem ipsum dolor sit amet consectetur",    
     },
     "Where do you expect costs and risks in migrating to S/4HANA Cloud?": {
         header: "Costs",
-        negCopy:"Integra la gestión de riesgos en tu cultura y procesos de negocio con análisis de seguridad automatizados, auditorías digitalizadas y cumplimiento.",
+        negCopy:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis magnam, enim voluptatibus nisi, dignissimos cupiditate omnis, in quisquam deleniti obcaecati hic maxime.",
         negLink:"https://explore.oracle.com/big-moves-sp/bm-risk-starter-kit-sp",
-        negLinkTxt:"Descarga el kit de inicio aquí",    
+        negLinkTxt:"Lorem ipsum dolor sit amet consectetur",    
     },
-    "What are the risks of running  SAP on a hyperscaler*?": {
+    "What risks if any do you perceive running SAP on a hyperscaler*?": {
         header: "Hyperscalers",
-        negCopy:"Integra la gestión de riesgos en tu cultura y procesos de negocio con análisis de seguridad automatizados, auditorías digitalizadas y cumplimiento.",
+        negCopy:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis magnam, enim voluptatibus nisi, dignissimos cupiditate omnis, in quisquam deleniti obcaecati hic maxime.",
         negLink:"https://explore.oracle.com/big-moves-sp/bm-risk-starter-kit-sp",
-        negLinkTxt:"Descarga el kit de inicio aquí",    
+        negLinkTxt:"Lorem ipsum dolor sit amet consectetur",    
+    },
+    "Does the existing integration of SAP applications affect your business?": {
+        header: "Integration",
+        negCopy:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis magnam, enim voluptatibus nisi, dignissimos cupiditate omnis, in quisquam deleniti obcaecati hic maxime.",
+        negLink:"https://explore.oracle.com/big-moves-sp/bm-risk-starter-kit-sp",
+        negLinkTxt:"Lorem ipsum dolor sit amet consectetur",    
+    },
+    "What are the benefits of running SAP in the Cloud?": {
+        header: "Cloud",
+        negCopy:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis magnam, enim voluptatibus nisi, dignissimos cupiditate omnis, in quisquam deleniti obcaecati hic maxime.",
+        negLink:"https://explore.oracle.com/big-moves-sp/bm-risk-starter-kit-sp",
+        negLinkTxt:"Lorem ipsum dolor sit amet consectetur",    
+    },
+    "Where do you expect costs and risks in migrating to S/4HANA?": {
+        header: "Costs",
+        negCopy:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis magnam, enim voluptatibus nisi, dignissimos cupiditate omnis, in quisquam deleniti obcaecati hic maxime.",
+        negLink:"https://explore.oracle.com/big-moves-sp/bm-risk-starter-kit-sp",
+        negLinkTxt:"Lorem ipsum dolor sit amet consectetur",    
+    },
+    "Do SAP Analytics help you with your job?": {
+        header: "Analytics",
+        negCopy:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis magnam, enim voluptatibus nisi, dignissimos cupiditate omnis, in quisquam deleniti obcaecati hic maxime.",
+        negLink:"https://explore.oracle.com/big-moves-sp/bm-risk-starter-kit-sp",
+        negLinkTxt:"Lorem ipsum dolor sit amet consectetur",    
+    },
+    "Will moving to SAP Cloud provide you with a more user-friendly SAP system?": {
+        header: "Usability",
+        negCopy:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis magnam, enim voluptatibus nisi, dignissimos cupiditate omnis, in quisquam deleniti obcaecati hic maxime.",
+        negLink:"https://explore.oracle.com/big-moves-sp/bm-risk-starter-kit-sp",
+        negLinkTxt:"Lorem ipsum dolor sit amet consectetur",    
+    },
+    "Will moving to SAP Cloud improve collaboration? [collaboration refers to working together in groups aided by software]": {
+        header: "Collaboration",
+        negCopy:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis magnam, enim voluptatibus nisi, dignissimos cupiditate omnis, in quisquam deleniti obcaecati hic maxime.",
+        negLink:"https://explore.oracle.com/big-moves-sp/bm-risk-starter-kit-sp",
+        negLinkTxt:"Lorem ipsum dolor sit amet consectetur",    
+    },
+    "Does the quality of integration of SAP affect your business?": {
+        header: "Integration",
+        negCopy:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis magnam, enim voluptatibus nisi, dignissimos cupiditate omnis, in quisquam deleniti obcaecati hic maxime.",
+        negLink:"https://explore.oracle.com/big-moves-sp/bm-risk-starter-kit-sp",
+        negLinkTxt:"Lorem ipsum dolor sit amet consectetur",    
+    },
+    "Does SAP support your company to become an intelligent enterprise?": {
+        header: "Transformation",
+        negCopy:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis magnam, enim voluptatibus nisi, dignissimos cupiditate omnis, in quisquam deleniti obcaecati hic maxime.",
+        negLink:"https://explore.oracle.com/big-moves-sp/bm-risk-starter-kit-sp",
+        negLinkTxt:"Lorem ipsum dolor sit amet consectetur",    
+    },
+    "Will moving to SAP Cloud improve collaboration*?": {
+        header: "Collaboration",
+        negCopy:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis magnam, enim voluptatibus nisi, dignissimos cupiditate omnis, in quisquam deleniti obcaecati hic maxime.",
+        negLink:"https://explore.oracle.com/big-moves-sp/bm-risk-starter-kit-sp",
+        negLinkTxt:"Lorem ipsum dolor sit amet consectetur",    
     },
 }
 export default HEADER_MOD;
